@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Negative Nancy</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div id="game-container">
+			<div id="leaderboard"></div>
+			<div id="online"></div>
+			<div id="chalkboard">
+				<div id="points">
+					<ul id="points-player"></ul>
+					<ul id="points-opponent"></ul>
+				</div>
+				<div id="rules">
+					Rules:
+					<ol>
+						<li>Answer math problems before your opponent does
+						</li>
+						<li>3 strikes and you lose</li>
+					</ol>
+				</div>
+				<div id="players">
+					<div id="player"></div>
+					<div id="opponent"></div>
+				</div>
+				<div id="btn-play">Play</div>
+				<div id="waiting">Waiting for opponent<span class="one">.</span><span class="two">.</span><span class="three">.</span></div>
+				<div id="question"></div>
+				<div id="final-score"></div>
+			</div>
+			<div id="interaction">
+				<div>
+					<input id="input-answer" type="text" maxlength="6">
+				</div>
+			</div>
+			<div id="chat">
+				<ul>
+				</ul>
+				<input type="text" placeholder="Send a message">
+			</div>
+		</div>
+	</div>
+
+	<script src="bower_components/socket.io-client/socket.io.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

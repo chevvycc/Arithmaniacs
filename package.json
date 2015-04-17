@@ -1,0 +1,27 @@
+{
+  "name": "neg-nancy",
+  "version": "0.1.2",
+  "description": "neg-nancy app",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd public && bower install",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "bower": "^1.3.12",
+    "express": "~4.9.x",
+    "jquery": "^2.1.3",
+    "jsdom": "^4.0.2",
+    "mathjs": "^1.4.0",
+    "socket.io": "^1.3.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/neg-nancy.git"
+  },
+  "license": "MIT"
+}
