@@ -1,6 +1,5 @@
 #Arithmaniacs Online Challenge
 **Rules:**
-```
 1. Answer math problems before your opponent does
 2. Three strikes and you lose
 ```
